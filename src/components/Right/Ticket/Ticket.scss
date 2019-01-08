@@ -1,0 +1,92 @@
+
+
+
+.ticket{
+  height: 135px;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 104%;
+  display: flex;
+  flex-direction: row;
+
+  // float:right;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-between;
+  // border-color: black;
+  // vertical-align: middle;
+  background: rgb(255, 255, 255);
+  // // background: rgb(146, 55, 55); 
+  // margin: auto;
+  // padding: 20px;
+   
+}
+
+
+.ticket:hover{
+  box-shadow:   2px 2px 6px 0px rgba(50, 50, 50, 0.36);
+}
+
+
+.pic{
+  width: 164px; 
+  height: 70px; 
+  margin-left: 10px; 
+}
+
+.pic2{
+  padding-left: 15px;
+  width: 145px; 
+  height: 10px; 
+ 
+}
+
+
+
+.btn{
+      width: 155px;
+      height: 45px;
+      background-color: rgb(255, 109, 0);
+      outline-color: rgba(0, 0, 0, 0);
+      outline: none;
+      border-radius: 5px;
+      border: none;
+      box-shadow:   2px 2px 6px 0px rgba(50, 50, 50, 0.36);   
+      margin-left: 10px;
+      font-size: 11pt;
+      font-family: Helvetica;
+      color:white;
+  }
+  
+  .btn:active{
+      border: none;
+      box-shadow: none;
+  }
+  
+  .btn:hover{
+      background: #f78027;
+  }
+
+
+  .block1{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .block2{
+
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+  .block3{
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+  .block4{
+  margin-left: 30px;
+  margin-top: 15px;
+}
